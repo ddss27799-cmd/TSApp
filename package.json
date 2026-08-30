@@ -1,0 +1,21 @@
+{
+  "name": "tsapp",
+  "version": "1.0.0",
+  "description": "TSApp - Cross-Platform Messenger Application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev:web & npm run dev:desktop & npm run dev:backend",
+    "build": "npm run build:web && npm run build:desktop && npm run build:mobile",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "messenger",
+    "chat",
+    "cross-platform",
+    "real-time",
+    "communication"
+  ],
+  "author": "",
+  "license": "MIT"
+}
